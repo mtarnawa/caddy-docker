@@ -15,7 +15,7 @@ RUN VERSION=${version} PLUGINS=${plugins} ENABLE_TELEMETRY=${enable_telemetry} /
 #
 # Final stage
 #
-FROM alpine:3.10
+FROM arm64v8/alpine:3.10.1
 LABEL maintainer "Abiola Ibrahim <abiola89@gmail.com>"
 
 ARG version="1.0.1"
