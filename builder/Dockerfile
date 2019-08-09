@@ -1,4 +1,4 @@
-FROM golang:1.12-alpine
+FROM arm64v8/golang:1.12-alpine
 
 RUN apk add --no-cache git gcc musl-dev
 
